@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>ER</projectKey>
+    <exportDate>2022-12-11 19:07:42 UTC</exportDate>
+    <folders>
+        <folder fullPath="Login" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="76788066" key="ER-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Erica Lima</createdBy>
+            <createdOn>2022-12-11 18:13:03 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[Login]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente sem cadastro deseja criar uma conta]]></name>
+            <objective><![CDATA[verificar funcionalidade do login]]></objective>
+            <owner>6251cb9fa629c30068aa985f</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar URL X]]></description>
+                        <expectedResult><![CDATA[Usuario deve visulizar tela de login]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[usuario digita username no campo username]]></description>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
